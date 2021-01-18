@@ -1,0 +1,161 @@
+/***** Main Body Settings *****/
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(221, 255, 254);
+  font-family: 'Montserrat';
+}
+
+
+/***** Navbar Settings *****/
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+  border-style: solid;
+  border-top: rgb(255, 255, 255);
+  border-right: rgb(255, 255, 255);
+  border-left: rgb(255, 255, 255);
+  border-width: 1px;
+  border-color: rgb(158, 158, 158);
+}
+
+#pixplace{
+  float: left;
+  font-size: 56px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a {
+  float: left;
+  font-size: 56px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 56px; 
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: rgb(80, 184, 184);
+  font-weight:bold;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/***** Information Boxes Settings *****/
+.mainbox{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  padding: 50px;
+  border-style: solid;
+  border-color: rgb(158, 158, 158);
+  border-width: 1px;
+  font-size: 32px;
+  
+}
+
+#quote{
+  text-align: right;
+  vertical-align: middle;
+}
+
+.informationbox{
+  background-color: rgb(255, 255, 255);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  padding: 50px;
+  border-style: solid;
+  border-color: rgb(158, 158, 158);
+  border-width: 1px;
+  font-size: 32px;
+  
+}
+
+.informationbox p{
+  font-size: 28px;
+}
+
+.informationbox h1{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.informationbox h2{
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.table,th,td{
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+/***** Footer Settings *****/
+.footer{
+  overflow: hidden;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 14px;
+  border-style: solid;
+  border-bottom: rgb(255, 255, 255);
+  border-right: rgb(255, 255, 255);
+  border-left: rgb(255, 255, 255);
+  border-width: 1px;
+  border-color: rgb(158, 158, 158);
+  word-spacing: 600px;
+}
