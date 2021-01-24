@@ -18,6 +18,7 @@ body{
   border-left: rgb(255, 255, 255);
   border-width: 1px;
   border-color: rgb(158, 158, 158);
+  position: relative;
 }
 
 #pixplace{
@@ -38,10 +39,20 @@ body{
   text-decoration: none;
 }
 
+.contact-text {
+  position: absolute;
+  top: 10px;
+  right: 145px;
+}
+
+
 .social-icons {
   font-size: 0px;
-  text-align: right;
+  position: absolute;
+  right: 0px;
+  bottom: 30px;
   }
+
 .social-icons li {
   display: inline-block;
   list-style-type: none;
