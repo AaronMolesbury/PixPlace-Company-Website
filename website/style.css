@@ -94,10 +94,11 @@ body{
 }
 
 .informationbox-photography{
-  margin-left: 20%;
+  margin-left: 25%;
   margin-right: 20%;
   padding: 50px;
   font-size: 32px;
+  text-align: center;
 }
 
 .informationbox-photography h1{
