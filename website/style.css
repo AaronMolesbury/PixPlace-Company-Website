@@ -197,6 +197,24 @@ body{
   padding: 10px;
 }
 
+.videobox{
+  margin-left: 35%;
+  display: inline;
+  width: 22%;
+  padding: 10px;
+  text-align: center;
+}
+
+.videobox pre{
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
+.videobox p{
+  font-size: 15px;
+  font-family: 'Montserrat';
+}
+
 
 /***** Footer Settings *****/
 .footer{
